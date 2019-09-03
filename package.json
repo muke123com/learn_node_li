@@ -1,0 +1,19 @@
+{
+  "name": "mukeke-mydemo",
+  "version": "1.0.0",
+  "description": "node-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "test/index.js"
+  },
+  "bin": {
+    "test-demo": "bin/index.js",
+    "work-start": "bin/work.js"
+  },
+  "author": "mk",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "shelljs": "^0.8.3"
+  }
+}
